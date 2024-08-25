@@ -1,16 +1,16 @@
 <template>
-  <div class=" mb-10 border-solid border-2 border-cyan-500 rounded-full place-items-center mt-5 h-10 w-8/12 mx-auto">
+  <div class="bg-blue-500 border border-gray-700 text-white p-5">
     <h3 class="text-center">
       <v-icon >mdi mdi-notebook-edit-outline</v-icon>مشخصات پيمان</h3>
   </div>
 
-  <ProjCard class="col-span-10 border-solid border-2 border-emerald-700 rounded-3xl w-8/12 mx-auto"></ProjCard>
+  <ProjCard class="col-span-10 border-solid border-2"></ProjCard>
 
-    <div class="grid grid-cols-4  w-10/12 mx-auto">
-      <ContractorCard class="col-span-2 border-solid border-2 border-emerald-700 rounded-3xl w-5/6 mt-2" ></ContractorCard>
-      <ContractorBaseCard class="col-span-2 border-solid border-2 border-emerald-700 rounded-3xl w-5/6 mt-2"></ContractorBaseCard>
-      <ContractorCoefficientCard class="col-span-2 border-solid border-2 border-emerald-700 rounded-3xl w-5/6 mt-2" ></ContractorCoefficientCard>
-      <contractor-dates-card class=" w-5/6 col-span-2 border-solid border-2 border-emerald-700 rounded-3xl mt-2"></contractor-dates-card>
+    <div class="mt-2 grid grid-cols-2 gap-2">
+      <ContractorCard ></ContractorCard>
+      <ContractorBaseCard ></ContractorBaseCard>
+      <ContractorCoefficientCard></ContractorCoefficientCard>
+      <contractor-dates-card></contractor-dates-card>
     </div>
 
 </template>

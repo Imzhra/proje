@@ -5,6 +5,9 @@ import * as directives from 'vuetify/directives'
 import { VTreeview } from 'vuetify/labs/VTreeview'
 import '@mdi/font/css/materialdesignicons.css';
 import { aliases, mdi } from 'vuetify/iconsets/mdi'
+
+
+
 export const vuetifyConfig = createVuetify({
     defaults:{
         VTextField: {

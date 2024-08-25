@@ -1,25 +1,21 @@
 interface Item{
-    Title : String;
-    ProjectTitle : String;
-
-    ContractorName : String;
+    Title : string;
+    ProjectTitle : string;
+    ContractorName : string;
     ContractNo : number;
     ContractFirstCost :number;
-    ContractDate : Date | null;
+    ContractDate : string;
     InitialContract : number;
-
     ContractorBase :string ;
     Month : string ;
     Year : number ;
-
     UpperHead : number;
     Regional : number ;
     WorkShopEquipment :number;
     ContractorSuggestion : number ;
-
-    ContractorNotification : Date |null;
-    ContractorFinishDate : Date |null ;
-    FirstDeliveryDate : Date |null;
+    ContractorNotification : string;
+    ContractorFinishDate : string ;
+    FirstDeliveryDate : string;
 }
 
 export default Item

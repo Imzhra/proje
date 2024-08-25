@@ -1,6 +1,7 @@
 <template>
   <div>
     <v-card>
+      <v-card-title>اطلاعات مبنای پیمان</v-card-title>
       <v-card-item>
         <TextField prop="شاخص مبنای پیمان" v-model="Base.ContractorBase" types="text" class="mt-2 mx-auto w-4/6"></TextField>
         <v-select v-model="Base.Month" label="یک سه ماه را انتخاب کنید" :items="Months" class="mx-auto w-4/6"></v-select>
