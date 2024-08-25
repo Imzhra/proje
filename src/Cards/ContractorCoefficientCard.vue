@@ -14,6 +14,6 @@
 <script setup lang="ts">
 import TextField from "../TextFields/TextField.vue";
 import {ref} from "vue";
-import Item from "../Types/DetailInterface.ts";
+import Item from "../Items/DetailInterface.ts";
 const Coefficient = ref<Partial<Item>>({UpperHead: 0 ,Regional: 0 ,WorkShopEquipment: 0,ContractorSuggestion: 0});
 </script>

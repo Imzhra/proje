@@ -13,7 +13,7 @@
 <script setup lang="ts">
 import TextField from "../TextFields/TextField.vue";
 import {ref} from "vue";
-import Item from "../Types/DetailInterface.ts";
+import Item from "../Items/DetailInterface.ts";
 
 const Contract = ref<Partial<Item>>({ ContractorName:'', ContractNo: 0 ,ContractFirstCost :0,ContractDate :null ,InitialContract: 0});
 </script>

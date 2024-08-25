@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-main>
-      <FormInfo/>
+      <FormDetail/>
     </v-main>
   </v-app>
 </template>
@@ -9,7 +9,7 @@
 <script setup lang="ts">
 import { defineComponent } from 'vue'
 
-import FormInfo from "./components/FormInfo.vue";
+import FormDetail from "./components/FormDetail.vue";
 
 
 

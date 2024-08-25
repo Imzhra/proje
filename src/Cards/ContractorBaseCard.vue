@@ -12,7 +12,7 @@
 <script setup lang="ts">
 import TextField from "../TextFields/TextField.vue";
 import {ref} from "vue";
-import Item from "../Types/DetailInterface.ts";
+import Item from "../Items/DetailInterface.ts";
 const Base = ref<Partial<Item>>({ContractorBase: '' , Month : '', Year : 1400});
 
 const Years = ref([1400,1401,1402,1403]);

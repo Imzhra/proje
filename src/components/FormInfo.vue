@@ -26,10 +26,10 @@
 import { ref } from 'vue';
 import TextField from "../TextFields/TextField.vue";
 import ListCard from "../Cards/ListCard.vue";
-import Item from "../Types/InfoInterface.ts";
+import Item from "../Items/DetailInterface.ts";
 
 
-const ListSub = ref<Item>({Title: '' , ProjectTitle: ''})
+const ListSub = ref<Partial<Item>>({Title: '' , ProjectTitle: ''})
 
 </script>
 

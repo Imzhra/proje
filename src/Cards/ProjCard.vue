@@ -13,7 +13,7 @@
 
 import TextField from "../TextFields/TextField.vue";
 import {ref} from "vue";
-import Item from "../Types/DetailInterface.ts";
+import Item from "../Items/DetailInterface.ts";
 
 const SubList = ref<Partial<Item>>({Title: '' , ProjectTitle: ''});
 </script>

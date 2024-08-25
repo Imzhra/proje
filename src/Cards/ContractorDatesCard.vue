@@ -13,6 +13,6 @@
 <script setup lang="ts">
 import TextField from "../TextFields/TextField.vue";
 import {ref} from "vue";
-import Item from "../Types/DetailInterface.ts";
+import Item from "../Items/DetailInterface.ts";
 const Dates = ref<Partial<Item>>({ContractorNotification : null, ContractorFinishDate: null , FirstDeliveryDate : null})
 </script>
