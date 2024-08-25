@@ -1,5 +1,5 @@
 {
-  "name": "newform",
+  "name": "form",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -9,18 +9,22 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mdi/font": "5.9.55",
+    "@mdi/font": "^5.9.55",
     "roboto-fontface": "*",
     "vue": "^3.4.37",
+    "vue-i18n": "^9.14.0",
     "vuetify": "^3.0.0-beta.0",
     "webfontloader": "^1.0.0"
   },
   "devDependencies": {
     "@types/webfontloader": "^1.0.0",
     "@vitejs/plugin-vue": "^5.1.2",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10",
     "typescript": "^5.5.3",
-    "vite": "^5.4.1",
-    "vite-plugin-vuetify": "^1.0.0-alpha.12",
+    "vite": "^5.4.2",
+    "vite-plugin-vuetify": "^2.0.4",
     "vue-cli-plugin-vuetify": "~2.5.8",
     "vue-tsc": "^2.0.29"
   },
