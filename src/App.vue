@@ -16,7 +16,7 @@
 
 <script setup lang="ts">
 
-import FormDetail from "./components/FormDetail.vue";
+import FormDetail from "./components/ProjectInfo.vue";
 
 
 
